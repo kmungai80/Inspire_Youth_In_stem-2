@@ -18,13 +18,13 @@ add_numbers(4,5)
 add_numbers(10,9)
 print("-----------------------------------------------")
 
-def add_numbers(num1,num2):
-    sum_num= num1 * num2
-    print(sum_num)
+def mult_num(num1,num2):
+    mult_num= num1 * num2
+    print(mult_num)
 
-add_numbers(20,30)
-add_numbers(4,5)
-add_numbers(10,9)
+mult_num(20,30)
+mult_num(4,5)
+mult_num(10,9)
 print("--------------------------------------------------")
 
 def sub_num(num1,num2):

@@ -6,3 +6,12 @@ def factorial(n):
     
 factorial(3)
 print(factorial(3))
+
+
+def simple_interest(p,r,t):
+    simp=((p*r*t)/100)
+    print(simp)
+
+
+simple_interest(20000,10,2)
+
