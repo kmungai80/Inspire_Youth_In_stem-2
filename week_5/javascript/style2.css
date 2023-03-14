@@ -1,0 +1,55 @@
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  body {
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .header {
+    height: 0px;
+    background-color: #ffffff;
+    /* Add any other styles you need for the header */
+  }
+  
+  .logo {
+    background-image: url("logo.jpg.crdownload");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Add any other styles you need for the logo */
+  }

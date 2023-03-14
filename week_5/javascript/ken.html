@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <title>SPOTIFY</title>
+    <head>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <h1 style="color:green;">SPOTIFY</h1>
+    <div class="header">
+        <div class="logo"></div>
+      </div>
+    <body>
+        <div id="playlist">
+            <div class="artist">
+              <img src="image8.jpg" alt="Artist 1">
+              <h3>Sauti Sol</h3>
+              <audio src="audio.mp3"></audio>
+              <button class="play">Play</button>
+              <button class="stop">Stop</button>
+            </div>
+            <div class="artist">
+              <img src="image.jpg" alt="Artist 2">
+              <h3>Central Cee</h3>
+              <audio src="audio1.mp3"></audio>
+              <button class="play">Play</button>
+              <button class="stop">Stop</button>
+            </div>
+            <div class="artist">
+              <img src="image2.jpg" alt="Artist 3">
+              <h3>Buruklyn Boyz</h3>
+              <audio src="audio2.mp3"></audio>
+              <button class="play">Play</button>
+              <button class="stop">Stop</button>
+            </div>
+            <div class="artist">
+              <img src="image3.jpg" alt="Artist 4">
+              <h3>Boutross</h3>
+              <audio src="audio3.mp3"></audio>
+              <button class="play">Play</button>
+              <button class="stop">Stop</button>
+            </div>
+            <div class="artist">
+              <img src="wakadinali.jpg" alt="Artist 5">
+              <h3>Wakadinali</h3>
+              <audio src="wak.mp3"></audio>
+              <button class="play">Play</button>
+              <button class="stop">Stop</button>
+            </div>
+          </div>
+    <script>
+        const artists = document.querySelectorAll('.artist');
+
+artists.forEach((artist) => {
+  const audio = artist.querySelector('audio');
+  const playButton = artist.querySelector('.play');
+  const stopButton = artist.querySelector('.stop');
+
+  playButton.addEventListener('click', () => {
+    audio.play();
+  });
+
+  stopButton.addEventListener('click', () => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
+});
+    </script>
+
+
+    </body>
+</html>
